@@ -4,14 +4,13 @@
         "version": "PTDL_v2",
         "update_url": null
     },
-    "exported_at": "2022-06-24T13:47:04+02:00",
+    "exported_at": "2022-06-24T14:23:09+02:00",
     "name": "Team Fortress 2 (box86)",
     "author": "adamflor8@gmail.com",
     "description": null,
     "features": null,
     "docker_images": {
-        "box86:test": "box86:test",
-        "ghcr.io\/coveerz\/box86:test": "ghcr.io\/coveerz\/box86:test"
+        "ghcr.io\/coveerz\/box86:latest": "ghcr.io\/coveerz\/box86:latest"
     },
     "file_denylist": [],
     "startup": ".\/srcds_run -game tf -console -port {{SERVER_PORT}} +map {{SRCDS_MAP}} +maxplayers {{SRCDS_MAP}} +ip 0.0.0.0 -strictportbind -norestart",
