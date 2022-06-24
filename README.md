@@ -1,1 +1,1 @@
-# squarecube
+# SquareCube
